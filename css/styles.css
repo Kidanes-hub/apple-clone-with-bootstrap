@@ -1,0 +1,338 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 93px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.75em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  /* border-bottom: 1px solid #4b4b4b; */
+}
+
+
+/* Hamberger menu / Navbar Toggler */
+
+.navbar-toggler {
+  display: block;
+  padding-right: 5px;
+}
+
+/* Default icon */
+.navbar-toggler::after {
+  content: "\f0c9"; /* FontAwesome hamburger icon */
+  font-family: "FontAwesome";
+  /* padding: 5px 0px 10px 15px; */
+  position: relative; /* changed the absolute */
+  right: 25px;
+}
+
+/* Expanded state */
+.navbar-toggler.whenExpanded::after {
+  content: "\f00d"; /* FontAwesome close icon */
+}
+
+/* Search Box */
+.searchbox {
+  z-index: 100;
+  background: #100f0f;
+  padding: 100px;
+  text-align: center;
+  display: none;
+}
+
+.searchbox ul {
+  background: #fff;
+}
+
+/*  Section one starts here  */
+.my-links ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+}
+ul li a:hover {
+  color: #1d1d1f;
+}
+
+/* section two starts here  */
+.iphone-pro {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 580px;
+  color: white;
+}
+
+/* Section three starts here*/
+.multiple-iphone {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 580px;
+}
+
+/* Section four starts here */
+
+.bg-watch {
+  background-image: url("../images/home/watch-series-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+}
+
+.apple-card {
+  background-image: url("../images/home/apple-card.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*   background-size: contain; */
+  height: 580px;
+  outline: 4px bold;
+  /*   background-color: wheat; */
+}
+
+/* Section Five starts here */
+
+.snoozing-baby {
+  background-image: url("../images/home/apple-tv-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*  background-size: contain; */
+  height: 580px;
+}
+.servant {
+  padding: 165px 0 130px;
+}
+.watch-trailer a:after {
+  font-family: "fontAwesome";
+  content: "\f144";
+}
+.watch-trailer a:hover {
+  color: #1d1d1f;
+}
+
+.air-pods {
+  background-image: url("../images/home/air-pods.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 580px;
+  background-color: black;
+  color: #f5f5f7;
+}
+
+/*  Section six starts here */
+.bg-color {
+  /* background-color: #fafafa; */
+}
+
+.MacBook-Pro {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  height: 400px;
+}
+
+.the-new-ipad {
+  background-image: url("../images/home/new-ipad.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  height: 580px;
+}
+
+/* Carousel */
+
+.carousel img {
+  max-width: initial;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  height: 500px;
+  opacity: 0.7;
+}
+
+.slide:hover {
+  opacity: 1;
+}
+
+#pause {
+  color: white;
+  font-size: 24px;
+}
+
+.circle-container {
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 3px solid white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+@media (min-width: 833px) {
+  .hide-icons {
+    display: block;
+  }
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+
+  .footer-links-wrapper h3.expanded:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
